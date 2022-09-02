@@ -1,3 +1,6 @@
+/**
+ * COMENTARIO RAMA HEADER
+ */
 const GitApp = () => {
   const printHeader = (message) => {
     console.log(`Header: ${message}`);
