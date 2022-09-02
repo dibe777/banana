@@ -1,6 +1,6 @@
 /**
- * CODIGO DE LA RAMA MASTER 😎
- **/
+ * COMENTARIO RAMA HEADER
+ */
 
 const GitApp = () => {
   const printHeader = (message) => {
@@ -15,7 +15,11 @@ const GitApp = () => {
     console.log(`Footer: ${message}`);
   };
 
-  return { printHeader, printBody, printFooter };
+  const branchHeader = () => {
+    console.log(`Branch HEADER`);
+  };
+
+  return { printHeader, printBody, printFooter, branchHeader };
 };
 
 export default GitApp;
