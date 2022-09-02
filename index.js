@@ -1,9 +1,17 @@
 const GitApp = () => {
   const printHeader = (message) => {
-    console.log(`Mensage: ${message}`);
+    console.log(`Header: ${message}`);
   };
 
-  return 'Git & GitHub';
+  const printBody = (message) => {
+    console.log(`Body: ${message}`);
+  };
+
+  const printFooter = (message) => {
+    console.log(`Footer: ${message}`);
+  };
+
+  return { printHeader, printBody, printFooter };
 };
 
 export default GitApp;
