@@ -1,3 +1,7 @@
+/**
+ * CODIGO DE LA RAMA MASTER
+ **/
+
 const GitApp = () => {
   const printHeader = (message) => {
     console.log(`Header: ${message}`);
