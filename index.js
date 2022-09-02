@@ -19,8 +19,8 @@ const GitApp = () => {
     console.log(`Branch HEADER`);
   };
 
-  const autoMerge = () => {
-    console.log(`AUTO MERGE 🤞`);
+  const autoMerge = (msg) => {
+    console.log(`AUTO MERGE 🤞: ${msg}`);
   };
 
   return { printHeader, printBody, printFooter, branchHeader, autoMerge };
