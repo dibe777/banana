@@ -19,7 +19,11 @@ const GitApp = () => {
     console.log(`Branch HEADER`);
   };
 
-  return { printHeader, printBody, printFooter, branchHeader };
+  const autoMerge = () => {
+    console.log(`AUTO MERGE 🤞`);
+  };
+
+  return { printHeader, printBody, printFooter, branchHeader, autoMerge };
 };
 
 export default GitApp;
