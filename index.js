@@ -1,8 +1,8 @@
-const GitApp = () => {
-  const autoMerge = (msg, title, author) => {
+const bananaApp = () => {
+  const alertMessage = (msg, title, author) => {
     console.log(`📢 ${author}: ${title}/${msg}`);
   };
-  return { autoMerge };
+  return { alertMessage };
 };
 
-export default GitApp;
+export default bananaApp;
